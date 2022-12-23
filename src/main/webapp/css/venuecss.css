@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.tableColumnVen{
+	display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    width: 100%;
+}
+
+.containerVen{
+	padding: 10px;
+}

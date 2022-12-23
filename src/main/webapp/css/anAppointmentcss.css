@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.Columns{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 4px;
+    margin: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+.Columns div{
+	align-content: inherit;
+    width: 100%;
+}
+
+form{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+        align-items: center;
+}
+
+.datadiv{
+	    display: flex;
+    flex-direction: row;
+}
+
+.title{
+	font-size: xx-large;
+}
+
+.maincontainer{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+        padding: 10px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:transparent; 
+    border:0.5px solid;
+    cursor:pointer;
+    border-radius: 20px; 
+}
+input[type=submit]:hover {
+    padding:10px 15px; 
+    background:transparent; 
+    border:1px solid;
+    cursor:pointer;
+    border-radius: 20px; 
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=date] {
+    padding: 5px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+input[type=time] {
+    padding: 5px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+.datas{
+	    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+}
+
+.datas div{
+	    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
